@@ -5,7 +5,7 @@ body {
   /* Fixed sidenav, full height */
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 210px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -17,7 +17,7 @@ body {
   
   /* Style the sidenav links and the dropdown button */
   .sidenav a, .dropdown-btn {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 16px 16px;
     text-decoration: none;
     font-size: 20px;
     color: #cce5ff;
@@ -37,7 +37,7 @@ body {
   
   /* Main content */
   .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 210px; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
